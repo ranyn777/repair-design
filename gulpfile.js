@@ -17,3 +17,19 @@ gulp.task('browser-sync', function() {
     });
     gulp.watch("./*.html").on('change', browserSync.reload);
 });
+
+gulp.task('default', function () {
+    return gulp.src('./main.css')
+        .pipe(csso())
+        .pipe(gulp.dest('./out'));
+});
+
+gulp.task('development', function () {
+    return gulp.src('./main.css')
+        .pipe(csso({
+            restructure: false,
+            sourceMap: true,
+            debug: true
+        }))
+        .pipe(gulp.dest('./out'));
+});

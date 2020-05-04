@@ -1,0 +1,24 @@
+{
+  "name": "repair-design",
+  "version": "1.0.0",
+  "description": "Новый сайт",
+  "main": "index.js",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranyn777/repair-design.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ranyn777/repair-design/issues"
+  },
+  "homepage": "https://github.com/ranyn777/repair-design#readme"
+}

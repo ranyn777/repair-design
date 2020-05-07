@@ -323,7 +323,7 @@ template {
 .menu {
   display: flex;
   justify-content: space-between;
-  align-items: centert; }
+  align-items: center; }
 
 .logo {
   color: #E3B873;

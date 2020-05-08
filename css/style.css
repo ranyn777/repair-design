@@ -337,7 +337,11 @@ template {
   .button--outline {
     border: 1px solid #fff;
     background-color: transparent;
-    color: #fff; }
+    color: #fff;
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.2);
+    transition: box-shadow 0.3s; }
+    .button--outline:hover {
+      box-shadow: none; }
 
 .container {
   width: 85%;
@@ -382,7 +386,10 @@ body {
 
 .logo {
   color: #E3B873;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-decoration: none; }
+  .logo:hover {
+    color: #fff; }
 
 .nav__item {
   color: #fff;
@@ -436,6 +443,8 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     color: #fff; }
+    .hero__scroll-down:hover {
+      color: #E3B873; }
     .hero__scroll-down::after {
       content: '';
       background: url("../img/arrow-down.svg") no-repeat center;
@@ -466,6 +475,8 @@ body {
     color: #E3B873;
     transform: rotate(90deg);
     line-height: 0.8; }
+    .instagram__link:hover {
+      color: #fff; }
     .instagram__link::after {
       content: '';
       width: 50px;

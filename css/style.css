@@ -412,12 +412,12 @@ template {
     color: #fff; }
     .hero__scroll-down::after {
       content: '';
-      margin-left: 12px;
+      background: url("../img/arrow-down.svg") no-repeat center;
       width: 30px;
       height: 30px;
       border: 2px solid #E3B873;
       border-radius: 50%;
-      background: url("../img/arrow-down.svg") no-repeat center; }
+      margin-left: 12px; }
   .hero__content {
     position: relative;
     max-width: 670px; }
@@ -439,13 +439,13 @@ template {
     text-decoration: none;
     color: #E3B873;
     transform: rotate(90deg);
-    line-height: 1.7; }
+    line-height: 0.8; }
     .instagram__link::after {
       content: '';
-      margin-left: 8px;
       width: 50px;
       height: 1px;
-      background-color: #E3B873; }
+      background-color: #E3B873;
+      margin-left: 8px; }
 
 .title {
   margin: 0;

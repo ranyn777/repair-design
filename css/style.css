@@ -325,6 +325,8 @@ template {
   text-transform: uppercase; }
   .button:hover {
     cursor: pointer; }
+  .button:focus {
+    outline: none; }
   .button--primary {
     background-color: #E3B873;
     color: #fff;

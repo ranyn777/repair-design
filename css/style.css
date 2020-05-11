@@ -518,7 +518,7 @@ body {
     color: #E3B873;
     font-size: 2.809rem; }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
   html {
     font-size: 12px; }
   .nav__item {
@@ -548,10 +548,15 @@ body {
   .hero__text {
     margin-bottom: 2.28rem;
     font-size: 1.29rem; }
-  .hero__button {
+  .hero__button-1 {
     display: block;
     min-width: 22.86rem;
-    margin-bottom: 1.85rem; } }
+    margin-bottom: 1.85rem; }
+  .hero__button-2 {
+    display: block;
+    min-width: 22.86rem; }
+  .title--primary {
+    font-size: 1.64rem; } }
 
 @media screen and (max-width: 520px) {
   .hero__scroll-down {

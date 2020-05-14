@@ -369,7 +369,10 @@ img {
   .section-title {
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Yeseva One', cursive; }
+    font-family: 'Yeseva One', cursive;
+    font-size: 1.23rem;
+    font-weight: normal;
+    font-style: normal; }
     .section-title__image {
       display: flex;
       justify-content: center;
@@ -384,8 +387,9 @@ img {
       max-width: 52.92rem;
       margin: 0 auto;
       font-family: 'Futura BookC', sans-serif;
-      font-size: 1rem;
-      line-height: 1.9rem; }
+      font-size: 1.24rem;
+      line-height: 1.9rem;
+      text-transform: none; }
 
 .header {
   position: fixed;
@@ -553,7 +557,9 @@ img {
 
 .card__title {
   font-family: 'Yeseva One', cursive;
-  font-size: 1.29rem;
+  font-size: 1.3rem;
+  font-weight: 100;
+  font-style: normal;
   margin-top: 0;
   margin-bottom: 0.7rem; }
 
@@ -572,6 +578,8 @@ img {
   padding: 1.214rem 2.6rem;
   font-size: 1.29rem;
   font-family: 'Yeseva One', cursive;
+  font-style: normal;
+  font-weight: normal;
   text-transform: uppercase;
   background-color: #E3B873;
   color: #fff; }
@@ -598,7 +606,9 @@ img {
 
 .card__title {
   font-family: 'Yeseva One', cursive;
-  font-size: 1.29rem;
+  font-size: 1.3rem;
+  font-weight: 100;
+  font-style: normal;
   margin-top: 0;
   margin-bottom: 0.7rem; }
 

@@ -411,9 +411,10 @@ img {
     text-align: center;
     text-transform: uppercase;
     font-family: 'Yeseva One', cursive;
-    font-size: 1.23rem;
-    font-weight: normal;
-    font-style: normal; }
+    font-size: 1.42rem; }
+    .section-title__heading {
+      margin-bottom: 1.07rem;
+      font-size: 1.42rem; }
     .section-title__image {
       display: flex;
       justify-content: center;
@@ -425,12 +426,14 @@ img {
         height: 2px;
         background-color: #E3B873; }
     .section-title__description {
-      max-width: 52.92rem;
+      max-width: 51rem;
       margin: 0 auto;
+      margin-top: 1.7rem;
       font-family: 'Futura BookC', sans-serif;
       font-size: 1.24rem;
       line-height: 1.9rem;
-      text-transform: none; }
+      text-transform: none;
+      font-weight: 100; }
 
 .header {
   position: fixed;
@@ -577,7 +580,7 @@ img {
     font-size: 2.809rem; }
 
 .types__section-title {
-  margin-bottom: 2rem; }
+  margin-bottom: 2.78rem; }
 
 .row {
   display: flex;
@@ -626,7 +629,7 @@ img {
   color: #fff; }
 
 .projects__section-title {
-  margin-bottom: 2.5rem; }
+  margin-bottom: 2.78rem; }
 
 .row {
   display: flex;
@@ -709,6 +712,7 @@ img {
   .modal__title {
     font-family: 'Yeseva One', cursive;
     font-size: 1.357rem;
+    line-height: 1.86rem;
     text-align: center;
     margin: 0;
     margin-bottom: 2.42rem; }
@@ -722,7 +726,9 @@ img {
   .modal__policy {
     margin-bottom: 2.7rem; }
   .modal__button {
-    align-self: flex-end; }
+    align-self: flex-end;
+    padding: 17px 50px;
+    border-radius: 0; }
 
 @media screen and (max-width: 1400px) {
   html {
@@ -775,7 +781,15 @@ img {
     margin-bottom: 1.85rem; }
   .hero__button-2 {
     display: block;
-    min-width: 22.86rem; } }
+    min-width: 22.86rem; }
+  .projects {
+    background-color: #131313;
+    color: #fff; }
+  .section-title {
+    margin: 0 auto;
+    margin-bottom: 2.8rem;
+    font-size: 1.07rem;
+    max-width: 26rem; } }
 
 @media screen and (max-width: 580px) {
   .hero__scroll-down {
